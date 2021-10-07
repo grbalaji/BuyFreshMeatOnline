@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feature>
+	
+	<classDefinition>
+		<className>com.controller.BillController</className>
+		<modifier>public</modifier>
+		<annotations>
+					<annotation>
+						<annotationType>Controller</annotationType>
+					</annotation>
+		</annotations>
+		
+		
+		<fields>
+			<field>
+				<type>com.service.BillService</type>
+				<name>service</name>
+				<modifier>private</modifier>
+				<annotations>
+					<annotation>
+						<annotationType>Autowired</annotationType>
+					</annotation>
+				</annotations>
+			</field>
+			
+			</fields>
+			
+			
+			
+	</classDefinition>
+	
+	
+</feature>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscript>
+	<functiontested>
+		<name>Feature Test </name>
+		<feedback>
+			<success>You have a good understanding in configuring required attributes/methods and annotations</success>
+			<partial>Your understanding in configuring required attributes/methods and annotations</partial>
+			<failure>You need to focus more on configuring required attributes/methods and annotations</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>Feature Test</name>
+				<testcases>
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testAnnotationAboveController</name>
+							<description>Requirement is to check whether the Controller annotation is present above the BillController class</description>
+						<shortdescription>check whether the Controller annotation is present above the BillController class</shortdescription>
+					
+						<maxmark>5</maxmark>
+					</testcase>				
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testDependencyInjection</name>
+							<description>Requirement is to check whether the billService attribute is autowired inside the BillController class</description>
+						<shortdescription>check whether the billService attribute is autowired inside the BillController class</shortdescription>
+					
+						<maxmark>5</maxmark>
+					</testcase>	
+										
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testAnnotationAboveService</name>
+						<description>Requirement is to check whether the Service annotation is present above the BillService class</description>
+						<shortdescription>check whether the Service annotation is present above the BillService class</shortdescription>
+					
+						<maxmark>5</maxmark>
+					</testcase>
+									
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testAnnotationsAboveBuildStateMethod</name>
+						<description>Requirement is to specify the model attribute above the buildState method that holds the Map containing the itemName</description>
+						<shortdescription>check whether the model attribute is specified above the buildState method that holds the Map containing the itemName</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testAnnotationValueAboveMethod</name>
+						<description>Requirement is to specify the model attribute with the name itemList above the buildState method that holds the Map containing the itemName</description>
+						<shortdescription>check whether the model attribute with the name itemList is specified above the buildState method that holds the Map containing the itemName</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+									
+				</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+
+	<functiontested>
+		<name>Spring Testing in the Controller</name>
+		<feedback>
+			<success>You have a good understanding in mapping the request in the Controller</success>
+			<partial>Your understanding in mapping the request in the Controller is partially met</partial>
+			<failure>You need to focus more on mapping the request in the Controller</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>Mapping the Request from the UI inside the Controller</name>
+				<testcases>
+					<testcase>		
+					    <visible>yes</visible>
+						<name visible="yes">testShowPage</name>
+						<description>Requirement is to map the request and redirect to showpage jsp page</description>
+						<shortdescription>check whether the request is mapped for showPage and redirected to showpage.jsp</shortdescription>
+		
+						<maxmark>5</maxmark>
+					</testcase>
+										
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">testCalculateTotalBillAmountMethodInvocation</name>
+						<description>Requirement is to check whether layering is followed that is whether total cost is calculated by invoking the service method inside the Controller</description>
+						<shortdescription>check whether layering is followed that is whether total cost is calculated by invoking the service method inside the Controller</shortdescription>
+						
+						<maxmark>10</maxmark>
+					</testcase>
+					
+				<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testValidationFlowForInvalidScenario</name>
+						<description>Requirement is to check whether the validations are working correctly</description>
+						<shortdescription>check whether the validations are working correctly</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+						
+					
+				</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+		<functiontested>
+		<name>Functional testing</name>
+		<feedback>
+			<success>You have a good understanding in implementing the functionalities in Service Layer</success>
+			<partial>Your understanding in  implementing the functionalities in Service Layer is partially met</partial>
+			<failure>You need to focus more implementing the functionalities in Service Layer</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>Functional testing</name>
+				<testcases>
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testCalculateTotalBillAmountMethodForTheItemMutton</name>
+						<description>Requirement is to check whether the total cost is calculated as per the requirement for the item mutton</description>
+						<shortdescription>check whether the total cost is calculated as per the requirement for the item mutton</shortdescription>
+						
+						<maxmark>10</maxmark>
+					</testcase>
+					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testCalculateTotalBillAmountMethodForTheItemChicken</name>
+						<description>Requirement is to check whether the total cost is calculated as per the requirement for the item chicken</description>
+						<shortdescription>check whether the total cost is calculated as per the requirement for the item chicken</shortdescription>
+						
+						<maxmark>10</maxmark>
+					</testcase>
+				
+				<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">testCalculateTotalBillAmountMethodForTheItemPrawns</name>
+						<description>Requirement is to check whether the total cost is calculated as per the requirement for the item prawns</description>
+						<shortdescription>check whether the total cost is calculated as per the requirement for the item prawns</shortdescription>
+						
+						<maxmark>10</maxmark>
+					</testcase>
+				</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+	
+	<functiontested>
+		<name>UI Testing</name>
+		<feedback>
+			<success>You have a good understanding in designing the web page as per the design constraints specified</success>
+			<partial>Your understanding in designing the web page as per the requirement is partially met</partial>
+			<failure>You need to focus more on designing the web page as per ther requirement</failure>
+		</feedback>
+		<expertises>
+			<expertise>
+			    
+				<name>View Designing</name>
+				<testcases>					
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test03SuccessFlowForMutton</name>
+						<description>Requirement is to check whether UI from showpage to result page is redirected after calculating the total cost for the item mutton</description>
+						<shortdescription>check whether UI from showpage to result page is redirected after calculating the subscription cost for the item mutton</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+					<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test04SuccessFlowForChicken</name>
+						<description>Requirement is to check whether UI from showpage to result page is redirected after calculating the total cost for the item chicken</description>
+						<shortdescription>check whether UI from showpage to result page is redirected after calculating the total cost for the item chicken</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+					<testcase>
+					    <visible>no</visible>
+						<name visible="no">test05SuccessFlowForPrawns</name>
+						<description>Requirement is to check whether UI from showpage to result page is redirected after calculating the total cost for the item prawns</description>
+						<shortdescription>check whether UI from showpage to result page is redirected after calculating the total cost for the item prawns</shortdescription>
+						
+						<maxmark>5</maxmark>
+					</testcase>
+								
+				<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test01ShowPageJSP</name>
+						<description>Requirement is to check whether the component with the id 'itemName' is rendered with appropriate constraints</description>
+						<shortdescription>check whether the component with the id 'itemName' is rendered with appropriate constraints</shortdescription>
+						
+						<maxmark>2.5</maxmark>
+				</testcase>		
+						<testcase>
+					    <visible>yes</visible>
+						<name visible="yes">test02ShowPageJSP</name>
+						<description>Requirement is to check whether the component with the id 'quantity' is rendered with appropriate constraints</description>
+						<shortdescription>check whether the component with the id 'quantity' is rendered with appropriate constraints</shortdescription>
+						
+						<maxmark>2.5</maxmark>
+					</testcase>
+				
+				
+				
+				
+				</testcases>
+				<grade>
+					<complete>Success</complete>
+					<partial>Partial Success</partial>
+					<incomplete>Failed</incomplete>
+				</grade>
+			</expertise>
+								
+		</expertises>
+	</functiontested>
+	
+	
+	
+	
+	
+	
+	
+		<pmdtest>
+    <name>Comments and best practices/standards</name>
+    <feedback>
+    <success>You are good in following programming best practices</success>
+    <partial>Following coding best practices is partially met</partial>
+    <failure>You have not followed best practices</failure>
+    </feedback>
+    </pmdtest>
+	
+	
+	
+	
+	
+	
+	
+</testscript>
